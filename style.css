@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Oxygen:wght@300&family=Sansita+Swashed:wght@300&display=swap');
+.productImage1 {
+    height: 300px;
+    width: 220px; 
+    border-top-left-radius: 50px;
+    margin-left: 70px;
+}
+
+.productImage2 {
+    height: 300px;
+    width: 220px; 
+    border-radius: 5px;
+}
+
+.productImage3 {
+    height: 300px;
+    width: 220px; 
+    border-bottom-right-radius: 50px;
+    margin-right: 70px;
+}
+
+.productButton1 {
+    height: 40px;
+    width: 220px;
+    background-color: rgb(0,0,63);
+    color: white;
+    border-style: none;
+    border-radius: 5px; 
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.productButton1:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(104, 185, 223);
+}
+
+.productButton {
+    height: 40px;
+    width: 220px;
+    background-color: rgb(0,0,63);
+    color: white;
+    border-style: none;
+    border-radius: 5px; 
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 10px;
+}
+
+.productButton:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(104, 185, 223);
+}
+
+.shopItem {
+    display:block;
+}
+
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.logo {
+    margin-top: 30px;
+    height: 90px;
+    width: 90px; 
+    border-radius: 50%;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    background-color: white;
+}
+
+.search {
+    margin-left: 55px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+input {
+
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: white;
+    width: 270px;
+    height: 30px;
+}
+
+.no-outline:focus {
+    outline: none;
+  }
+
+  .title {
+      margin-top: 70px;
+      margin-left: 0px;
+      margin-right: 190px;
+      font-size: 30px;
+      font-family: 'Sansita Swashed', cursive;
+  }
+
+.icon {
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.icon:hover {
+    height: 55px;
+    width: 55px;
+}
+
+.searchIcon {
+    margin-top: 68px;
+    height: 30px;
+    width: 30px;
+    margin-right: 190px;
+    margin-bottom: 30px;
+}
+
+.searchIcon:hover {
+    height: 35px;
+    width: 35px;
+}
+
+.mainProducts {
+    display: inline-flex;
+    font-family: 'Sansita Swashed', cursive;
+} 
+
+.decor {
+    font-size: 35px;
+    margin-left: 250px;
+    margin-bottom: 15px;
+}
+
+.decor:hover {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color:  #ff6961;
+    color:  #ff6961;
+}
+
+.watches {
+    font-size: 35px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+.watches:hover {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color:  #ff6961;
+    color:  #ff6961;
+}
+
+
+.bags {
+    font-size: 35px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+.bags:hover {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color:  #ff6961;
+    color:  #ff6961;
+}
+
+
+.beauty {
+    font-size: 35px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    margin-right: 250px;
+}
+
+.decorPopup {
+    background-color: aquamarine;
+    margin-left: 20px;
+    height: 450px;
+    margin-bottom: 10px;
+    position: relative;
+    visibility: hidden;
+}
+
+.imgPopup {
+    height: 300px;
+    width: 220px; 
+    border-radius: 5px;
+    margin-right: 60px;
+}
+
+.popupProductList {
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+    margin-right: 30px;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+.popupImgContainer {
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+
+
+.beauty:hover {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color:  #ff6961;
+    color:  #ff6961;
+}
+
+.mainImg {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.mustHaves {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Londrina Outline', cursive;
+    font-weight: bold;
+}
+    .productImage1 {
+    height: 300px;
+    width: 220px; 
+    border-top-left-radius: 50px;
+    margin-left: 70px;
+}
+
+.productImage2 {
+    height: 300px;
+    width: 220px; 
+    border-radius: 5px;
+}
+
+.productImage3 {
+    height: 300px;
+    width: 220px; 
+    border-bottom-right-radius: 50px;
+    margin-right: 70px;
+}
+
+.productButton1 {
+    height: 40px;
+    width: 220px;
+    background-color: rgb(0,0,63);
+    color: white;
+    border-style: none;
+    border-radius: 5px; 
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.productButton1:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(104, 185, 223);
+}
+
+.productButton {
+    height: 40px;
+    width: 220px;
+    background-color: rgb(0,0,63);
+    color: white;
+    border-style: none;
+    border-radius: 5px; 
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 10px;
+}
+
+.productButton:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(104, 185, 223);
+}
+
+.shopItem {
+    display:block;
+}
+
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.logo {
+    margin-top: 30px;
+    height: 90px;
+    width: 90px; 
+    border-radius: 50%;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    background-color: white;
+}
+
+.search {
+    margin-left: 55px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+input {
+
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: white;
+    width: 270px;
+    height: 30px;
+}
+
+.no-outline:focus {
+    outline: none;
+  }
+
+  .title {
+      margin-top: 70px;
+      margin-left: 0px;
+      margin-right: 190px;
+      font-size: 30px;
+      font-family: 'Sansita Swashed', cursive;
+  }
+
+.icon {
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.icon:hover {
+    height: 55px;
+    width: 55px;
+}
+
+.searchIcon {
+    margin-top: 68px;
+    height: 30px;
+    width: 30px;
+    margin-right: 190px;
+    margin-bottom: 30px;
+}
+
+.searchIcon:hover {
+    height: 35px;
+    width: 35px;
+}
+
+.mainProducts {
+    display: inline-flex;
+    font-family: 'Sansita Swashed', cursive;
+} 
+
+.decor {
+    font-size: 35px;
+    margin-left: 250px;
+    margin-bottom: 15px;
+}
+
+.decor:hover {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color:  #ff6961;
+    color:  #ff6961;
+}
+
+.watches {
+    font-size: 35px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+.watches:hover {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color:  #ff6961;
+    color:  #ff6961;
+}
+
+
+.bags {
+    font-size: 35px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+.bags:hover {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color:  #ff6961;
+    color:  #ff6961;
+}
+
+
+.beauty {
+    font-size: 35px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    margin-right: 250px;
+}
+
+.decorPopup {
+    background-color: aquamarine;
+    margin-left: 20px;
+    height: 450px;
+    margin-bottom: 10px;
+    position: relative;
+    visibility: hidden;
+}
+
+.imgPopup {
+    height: 300px;
+    width: 220px; 
+    border-radius: 5px;
+    margin-right: 60px;
+}
+
+.popupProductList {
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+    margin-right: 30px;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+.popupImgContainer {
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+
+
+.beauty:hover {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color:  #ff6961;
+    color:  #ff6961;
+}
+
+.mainImg {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.mustHaves {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Londrina Outline', cursive;
+    font-weight: bold;
+
+}
